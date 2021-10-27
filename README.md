@@ -13,6 +13,7 @@ Model: Book
 - author: String
 - year: Number
 - img : String
+- notes: String
 
 ## Route Table
 
