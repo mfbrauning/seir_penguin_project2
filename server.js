@@ -1,16 +1,30 @@
-// import deps
+// dependencies
+require("dotenv").config() // make env variables available
 const express = require("express")
+const methodOverride = require("method-override")
+const morgan = require("morgan")
+const BookRouter = require("./controllers/book")
 
 
-// app object
-const app = express()
+// create app object
+const app = require("liquid-express-views")(express())
 
+//  set up middleware
+app.use(morgan("tiny"))
+app.use(methodOverride("_method"))
+app.use(express.urlencoded({extended: true}))
+app.use(express.static("public"))
 
-// route
+// routes
 app.get("/", (req, res) => {
-    res.send("This App is working")
+    res.send("app working")
 })
 
+app.use("/books", BookRouter)
+
+
+
+
 // listener
-const PORT = process.env.PORT || 3000
+const PORT = process.env.PORT
 app.listen(PORT, console.log(`listening on port ${PORT}`))

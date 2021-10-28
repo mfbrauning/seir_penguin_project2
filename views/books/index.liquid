@@ -1,0 +1,22 @@
+{% layout "layout.liquid" %} 
+
+{% block content %}
+
+{% for book in books %}
+
+<div class="book">
+    <a href="/books/{{book._id}}"><h2>{{book.title}}</h2></a>
+    <br>
+    <img src="{{book.img}}"/>
+    <br>
+    {{book.author}}
+    <br>
+    {{book.year}}
+</div>
+
+
+
+{% endfor %}
+
+
+{% endblock %}

@@ -1,0 +1,14 @@
+{% layout "layout.liquid" %} 
+
+{% block content %}
+<h2>Edit Book</h2>
+<form action="/books/{{book._id}}?_method=PUT" method="post">
+    Author: <input type="text" name="author" value="{{book.author}}" /><br>
+    Title: <input type="text" name="title" value="{{book.title}}" /> <br>
+    <input type="submit" value="Edit Book">
+</form>
+<br>
+<a href="/books"><button>Back to Home Page</button></a>
+
+
+{% endblock %}

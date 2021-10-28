@@ -1,0 +1,14 @@
+{% layout "layout.liquid" %} 
+
+{% block content %}
+<h2>Add a New Book</h2>
+<form action="/books" method="post">
+    Author: <input type="text" name="author" /><br>
+    Title: <input type="text" name="title" /> <br>
+    <input type="submit" value="Add New Book">
+</form>
+<br>
+<a href="/books"><button>Back to Home Page</button></a>
+
+
+{% endblock %}
