@@ -1,13 +1,14 @@
 {% layout "layout.liquid" %} 
 
 {% block content %}
+<h1>Reading List</h1>
 
+<div class="books">
 {% for book in books %}
 
-<div class="book">
-    <a href="/books/{{book._id}}"><h2>{{book.title}}</h2></a>
-    <br>
-    <img src="{{book.img}}"/>
+<div>
+    {{book.title}}
+    <a href="/books/{{book._id}}"><img src="{{book.img}}"></a>
     <br>
     {{book.author}}
     <br>
@@ -16,7 +17,12 @@
 
 
 
+
+
+
 {% endfor %}
 
+</div>
 
+<a href="/books/new"><button>Add a New Book</button></a>
 {% endblock %}

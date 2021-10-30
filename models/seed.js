@@ -33,7 +33,7 @@ db.on("open", () => {
                 title: 'The Setting Sun',
                 author: 'Osamu Dazai',
                 year: 1947,
-                img: 'https://ndbooks.imgix.net/dazai_setting_sun_cover_for_web_rev.jpg',
+                img: 'https://prodimage.images-bn.com/lf?set=key%5Bresolve.pixelRatio%5D,value%5B1%5D&set=key%5Bresolve.width%5D,value%5B550%5D&set=key%5Bresolve.height%5D,value%5B10000%5D&set=key%5Bresolve.imageFit%5D,value%5Bcontainerwidth%5D&set=key%5Bresolve.allowImageUpscaling%5D,value%5B0%5D&product=path%5B/pimages/9780811200325_p0_v3%5D&call=url%5Bfile:common/decodeProduct.chain%5D',
                 review: 'Written with beauty, refinement, and force: a work of unmistakable distinction…',
                 reviewAuthor: 'Atlantic Monthly',
               },
@@ -41,7 +41,7 @@ db.on("open", () => {
                 title: 'Submission',
                 author: 'Michel Houellebecq',
                 year: 2015,
-                img: 'https://images-na.ssl-images-amazon.com/images/I/71qwSzqHLcL.jpg',
+                img: 'https://pictures.abebooks.com/isbn/9781250097347-us.jpg',
                 review: "Few will disagree that Michel Houellebecq's 'Submission' ... is a novel of ideas — even though most of them are deeply discomfiting if not downright offensive.",
                 reviewAuthor: 'Heller McAlpin',
               }

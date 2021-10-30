@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(182, 206, 218);
+}
+h1 {
+    color:rgb(42, 83, 133);
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.books {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px 50px;
+    font-weight: bold;
+    color: rgb(101, 114, 43);
+    
+}
+
+a{
+    list-style: none;
+    font-weight: bold;
+    color:rgb(42, 83, 133);
+    font-size: 15px;
+}
+
+.books img {
+    height: 200px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.book img {
+    height: 500px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(42, 83, 133);
+    border: 0;
+}
+
+input[type=submit] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(42, 83, 133);
+    border: 0;
+}
+
+.book {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    padding-top: 20px;
+}
+
+.left{
+    width: 300px;
+    padding-left: 50px;
+}
+
+
+.middle {
+    margin: 0 100px;
+}
+
+.right {
+    width: 300px;
+    padding-right: 50px;
+}
