@@ -7,7 +7,7 @@
 {% for book in books %}
 
 <div>
-    {{book.title}}
+    <div class="bookTitle">{{book.title}}</div>
     <a href="/books/{{book._id}}"><img src="{{book.img}}"></a>
     <br>
     {{book.author}}

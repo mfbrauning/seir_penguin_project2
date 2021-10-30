@@ -82,3 +82,21 @@ input[type=submit] {
     width: 300px;
     padding-right: 50px;
 }
+
+@media screen and (max-width: 600px) {
+    .books {
+        display: block;
+        text-align: center;
+        padding: 50px 50px;
+        font-weight: bold;
+        color: rgb(101, 114, 43);
+    }
+    .bookTitle {
+        padding-top: 20px;
+        font-size: 25px;
+    }
+
+    .book {
+        display:block
+    }
+}
