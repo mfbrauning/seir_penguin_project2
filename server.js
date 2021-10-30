@@ -16,10 +16,10 @@ app.use(express.urlencoded({extended: true}))
 app.use(express.static("public"))
 
 // routes
-app.get("/", (req, res) => {
-    res.send("app working")
-})
 
+app.get("/", (req, res) => {
+    res.render("books/main.liquid")
+})
 app.use("/books", BookRouter)
 
 
