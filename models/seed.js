@@ -44,7 +44,32 @@ db.on("open", () => {
                 img: 'https://pictures.abebooks.com/isbn/9781250097347-us.jpg',
                 review: "Few will disagree that Michel Houellebecq's 'Submission' ... is a novel of ideas — even though most of them are deeply discomfiting if not downright offensive.",
                 reviewAuthor: 'Heller McAlpin',
-              }
+              },
+              {
+                title: 'Little Birds',
+                author: 'Anais Nin',
+                year: 1979,
+                img: 'https://cdn2.penguin.com.au/covers/original/9780141183404.jpg',
+                review: " I wouldn't really call them short stories in the traditional sense more like vignettes into a character's sexual exploration.",
+                reviewAuthor: 'M.E. Wood',
+              },
+              {
+                title: 'Ninth Street Women',
+                author: 'Mary Gabriel',
+                year: 2018,
+                img: 'https://images-na.ssl-images-amazon.com/images/I/610InFMP5JL.jpg',
+                review: "Five women revolutionize the modern art world in postwar America in this gratifying, generous, and lush true story from a National Book Award and Pulitzer Prize finalist",
+                reviewAuthor: 'Jennifer Szalai',
+              },
+              {
+                title: 'Americana',
+                author: 'Don DeLillo',
+                year: 1971,
+                img: 'https://images-na.ssl-images-amazon.com/images/I/91o4hALWHsL.jpg',
+                review: "DeLillo’s swift, ironic, and witty cross-country American nightmare doesn’t have a dull or an unoriginal line.",
+                reviewAuthor: 'Rolling Stone',
+              },
+
         ]
 
         // create new books from seed data

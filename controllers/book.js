@@ -17,10 +17,19 @@ router.get("/", (req, res) => {
     })
 })
 
+router.get("/read", (req,res) => {
+    res.render("books/read")
+})
+
 
 // new route
 router.get("/new", (req, res) => {
     res.render("books/new.liquid")
+})
+
+// new route
+router.get("/finished", (req, res) => {
+    res.render("books/newread.liquid")
 })
 
 // create route

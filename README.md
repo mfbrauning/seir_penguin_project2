@@ -13,7 +13,8 @@ Model: Book
 - author: String
 - year: Number
 - img : String
-- notes: String
+- review: String
+- review author: String
 
 ## Route Table
 
@@ -39,6 +40,10 @@ List your routes in a table
 
 ## Challenges
 
+- I mostly had issues with styling and the modal for this project, and ended up using W3Schools as a reference. Everything turned out alright though with more time I would've liked my app to look a little cleaner.
+
+## Sources
+https://www.w3schools.com/howto/howto_css_modals.asp
 
 
 ## List of Technologies
